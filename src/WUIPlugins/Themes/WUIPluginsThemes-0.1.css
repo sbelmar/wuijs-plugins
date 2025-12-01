@@ -186,43 +186,45 @@
 	--wui-menubar-bar-bordercolor: var(--wuiplugins-theme-bordercolor-low);
 	--wui-menubar-bar-bgcolor-top: var(--wuiplugins-theme-bordercolor-low);
 	--wui-menubar-bar-bgcolor-bottom: var(--wuiplugins-theme-bordercolor-low);
-	--wui-menubar-barexpander-bgcolor-out: transparent;
-	--wui-menubar-barexpander-bgcolor-over: rgb(from var(--wuiplugins-theme-bordercolor-high) r g b / 40%);
-	--wui-menubar-barexpander-iconsize: 16px;
-	--wui-menubar-barexpander-iconcolor-out: var(--wuiplugins-theme-graycolor-low);
-	--wui-menubar-barexpander-iconcolor-over: var(--wuiplugins-theme-graycolor-min);
-	--wui-menubar-barexpander-expandicon-src: none;
-	--wui-menubar-barexpander-contracticon-src: none;
-	--wui-menubar-barbutton-bgcolor-out: transparent;
-	--wui-menubar-barbutton-bgcolor-over: rgb(from var(--wuiplugins-theme-bordercolor-high) r g b / 40%);
-	--wui-menubar-barbutton-bgcolor-selected: var(--wuiplugins-theme-utilitycolor-hightlight);
-	--wui-menubar-barbutton-bgcolor-disabled: transparent;
-	--wui-menubar-barbutton-iconsize: 24px;
-	--wui-menubar-barbutton-iconcolor-out: rgb(from var(--wuiplugins-theme-bgcolor-icon) r g b / 70%);
-	--wui-menubar-barbutton-iconcolor-over: var(--wuiplugins-theme-bgcolor-icon);
-	--wui-menubar-barbutton-iconcolor-selected: var(--wuiplugins-theme-bgcolor-over);
-	--wui-menubar-barbutton-iconcolor-disabled: var(--wuiplugins-theme-utilitycolor-disabled);
-	--wui-menubar-barbutton-textcolor-out: var(--wuiplugins-theme-textcolor-active);
-	--wui-menubar-barbutton-textcolor-over: var(--wuiplugins-theme-textcolor-focus);
-	--wui-menubar-barbutton-textcolor-selected: var(--wuiplugins-theme-bgcolor-over);
-	--wui-menubar-barbutton-textcolor-disabled: var(--wuiplugins-theme-utilitycolor-disabled);
+	--wui-menubar-bar-button-bgcolor-out: transparent;
+	--wui-menubar-bar-button-bgcolor-over: rgb(from var(--wuiplugins-theme-bordercolor-high) r g b / 40%);
+	--wui-menubar-bar-button-bgcolor-selected: var(--wuiplugins-theme-utilitycolor-hightlight);
+	--wui-menubar-bar-button-bgcolor-disabled: transparent;
+	--wui-menubar-bar-button-iconsize: 24px;
+	--wui-menubar-bar-button-iconcolor-out: rgb(from var(--wuiplugins-theme-bgcolor-icon) r g b / 70%);
+	--wui-menubar-bar-button-iconcolor-over: var(--wuiplugins-theme-bgcolor-icon);
+	--wui-menubar-bar-button-iconcolor-selected: var(--wuiplugins-theme-bgcolor-over);
+	--wui-menubar-bar-button-iconcolor-disabled: var(--wuiplugins-theme-utilitycolor-disabled);
+	--wui-menubar-bar-button-textcolor-out: var(--wuiplugins-theme-textcolor-active);
+	--wui-menubar-bar-button-textcolor-over: var(--wuiplugins-theme-textcolor-focus);
+	--wui-menubar-bar-button-textcolor-selected: var(--wuiplugins-theme-bgcolor-over);
+	--wui-menubar-bar-button-textcolor-disabled: var(--wuiplugins-theme-utilitycolor-disabled);
+	--wui-menubar-expander-bgcolor-out: transparent;
+	--wui-menubar-expander-bgcolor-over: rgb(from var(--wuiplugins-theme-bordercolor-high) r g b / 40%);
+	--wui-menubar-expander-iconsize: 16px;
+	--wui-menubar-expander-iconcolor-out: var(--wuiplugins-theme-graycolor-low);
+	--wui-menubar-expander-iconcolor-over: var(--wuiplugins-theme-graycolor-min);
+	--wui-menubar-expander-expandicon-src: none;
+	--wui-menubar-expander-contracticon-src: none;
 	--wui-menubar-submenu-opener-iconsize: 16px;
 	--wui-menubar-submenu-opener-openicon-src: none;
-	/*--wui-menubar-submenu-bordercolor
-	--wui-menubar-submenu-bgcolor
-	--wui-menubar-submenubutton-bgcolor-out: transparent;
-	--wui-menubar-submenubutton-bgcolor-over
-	--wui-menubar-submenubutton-bgcolor-selected
-	--wui-menubar-submenubutton-iconcolor-out
-	--wui-menubar-submenubutton-iconcolor-over
-	--wui-menubar-submenubutton-iconcolor-selected
-	--wui-menubar-submenubutton-iconcolor-disabled
-	--wui-menubar-submenubutton-textcolor-out
-	--wui-menubar-submenubutton-textcolor-over
-	--wui-menubar-submenubutton-textcolor-selected
-	--wui-menubar-submenubutton-textcolor-disabled
-	--wui-menubar-bubble-bgcolor
-	--wui-menubar-bubble-textcolor*/
+	--wui-menubar-submenu-bordercolor: var(--wuiplugins-theme-bordercolor-low);
+	--wui-menubar-submenu-bgcolor: var(--wuiplugins-theme-bgcolor-out);
+	--wui-menubar-submenu-button-bgcolor-out: transparent;
+	--wui-menubar-submenu-button-bgcolor-over: rgb(from var(--wuiplugins-theme-bordercolor-high) r g b / 40%);
+	--wui-menubar-submenu-button-bgcolor-selected: var(--wuiplugins-theme-utilitycolor-hightlight);
+	--wui-menubar-submenu-button-bgcolor-disabled: transparent;
+	--wui-menubar-submenu-button-iconsize: 24px;
+	--wui-menubar-submenu-button-iconcolor-out: rgb(from var(--wuiplugins-theme-bgcolor-icon) r g b / 70%);
+	--wui-menubar-submenu-button-iconcolor-over: var(--wuiplugins-theme-bgcolor-icon);
+	--wui-menubar-submenu-button-iconcolor-selected: var(--wuiplugins-theme-bgcolor-over);
+	--wui-menubar-submenu-button-iconcolor-disabled: var(--wuiplugins-theme-utilitycolor-disabled);
+	--wui-menubar-submenu-button-textcolor-out: var(--wuiplugins-theme-textcolor-active);
+	--wui-menubar-submenu-button-textcolor-over: var(--wuiplugins-theme-textcolor-focus);
+	--wui-menubar-submenu-button-textcolor-selected: var(--wuiplugins-theme-bgcolor-over);
+	--wui-menubar-submenu-button-textcolor-disabled: var(--wuiplugins-theme-utilitycolor-disabled);
+	--wui-menubar-bubble-bgcolor: var(--wuiplugins-theme-utilitycolor-warning);
+	--wui-menubar-bubble-textcolor: #fff;
 
 	/* wui-list */
 
