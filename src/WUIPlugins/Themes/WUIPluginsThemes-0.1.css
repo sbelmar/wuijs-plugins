@@ -223,6 +223,8 @@
 	--wui-menubar-submenu-button-textcolor-over: var(--wuiplugins-theme-textcolor-focus);
 	--wui-menubar-submenu-button-textcolor-selected: var(--wuiplugins-theme-bgcolor-over);
 	--wui-menubar-submenu-button-textcolor-disabled: var(--wuiplugins-theme-utilitycolor-disabled);
+	--wui-menubar-tooltip-bgcolor: #000;
+	--wui-menubar-tooltip-textcolor: #fff;
 	--wui-menubar-bubble-bgcolor: var(--wuiplugins-theme-utilitycolor-warning);
 	--wui-menubar-bubble-textcolor: #fff;
 

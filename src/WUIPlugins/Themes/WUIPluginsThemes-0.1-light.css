@@ -148,6 +148,8 @@
 	--wui-menubar-submenu-button-textcolor-over: #1f2937;
 	--wui-menubar-submenu-button-textcolor-selected: #f6f6fa;
 	--wui-menubar-submenu-button-textcolor-disabled: #d5dce3;
+	--wui-menubar-tooltip-bgcolor: #000;
+	--wui-menubar-tooltip-textcolor: #fff;
 	--wui-menubar-bubble-bgcolor: #f44343;
 	--wui-menubar-bubble-textcolor: #fff;
 
